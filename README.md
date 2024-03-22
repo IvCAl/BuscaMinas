@@ -1,6 +1,6 @@
-Clasico buscaminas
-Escrito en Java
+Clasico buscaminas programado en Java
 
+Es un juego simple.
 La modalidad es de una sola partida por ejecucion.
 
 
