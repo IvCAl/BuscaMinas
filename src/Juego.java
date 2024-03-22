@@ -122,7 +122,7 @@ public class Juego extends JFrame implements ActionListener {
 		//Cuando ocurre un evento hay que ver en qui�n se dispar�.
 		if (arg0.getSource() instanceof Bomba) {
 			Bomba aux = (Bomba)arg0.getSource();
-			aux.setIcon(new ImageIcon("BuscaMinas (modificado)\\images\\bombexplotionicon.png"));
+			aux.setIcon(new ImageIcon("src\\elementos\\bombexplotionicon.png"));
 			System.out.println("bomba");
 			this.gameOver();
 			this.setLaBomba(aux);
